@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ClimaSeguro PE 2026</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="background-overlay"></div>
+
+  <header>
+    <h1>🌧️ ClimaSeguro PE 2026</h1>
+    <p>Informação rápida salva vidas.</p>
+
+  </header>
+
+  <nav>
+    <button onclick="mostrar('home')">Home</button>
+    <button onclick="mostrar('alertas')">Alertas</button>
+    <button onclick="mostrar('abrigos')">Abrigos</button>
+    <button onclick="mostrar('riscos')">Áreas de Risco</button>
+    <button onclick="mostrar('checklist')">Checklist</button>
+    <button onclick="mostrar('sos')">SOS</button>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home" class="active">
+
+    <h2>📍 Situação Atual</h2>
+
+    <div class="card">
+      <p>
+        Em 1º de maio de 2026, Recife e a Região Metropolitana enfrentaram fortes chuvas,
+        acumulando 171 mm em apenas 24 horas na estação de Nova Descoberta.
+      </p>
+
+      <div class="status">
+        ⚠️ ALERTA VERMELHO ATIVO
+      </div>
+    </div>
+
+    <div class="noticia">
+      <h3>🌊 Impactos registrados</h3>
+
+      <ul>
+        <li>Alagamentos severos</li>
+        <li>Pessoas ilhadas</li>
+        <li>Deslizamentos de barreiras</li>
+        <li>Interdição parcial do metrô</li>
+        <li>Mais de 168 ocorrências atendidas</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>📢 Objetivo do Aplicativo</h3>
+
+      <p>
+        Ajudar moradores durante enchentes, deslizamentos e chuvas fortes,
+        fornecendo alertas climáticos, localização de abrigos e informações
+        emergenciais em tempo real.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- ALERTAS -->
+  <section id="alertas">
+
+    <h2>⚠️ Alertas Climáticos</h2>
+
+    <div class="alerta">
+      🚨 ALERTA VERMELHO — APAC E INMET
+      <br><br>
+      Risco alto de:
+      <ul>
+        <li>Inundações rápidas</li>
+        <li>Deslizamentos</li>
+        <li>Alagamentos severos</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>📍 Áreas afetadas</h3>
+
+      <ul>
+        <li>Dois Unidos</li>
+        <li>Nova Descoberta</li>
+        <li>Olinda</li>
+        <li>Jaboatão</li>
+        <li>São Lourenço da Mata</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🌧️ Previsão</h3>
+
+      <p>
+        Chuvas moderadas a fortes continuam nas próximas 24h.
+        Recomenda-se evitar áreas de risco e acompanhar os alertas oficiais.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- ABRIGOS -->
+  <section id="abrigos">
+
+    <h2>🏠 Abrigos Próximos</h2>
+
+    <div class="mapa">
+
+      <div class="local">
+        <h3>📍 Escola Municipal Recife Seguro</h3>
+        <p>Capacidade: 250 pessoas</p>
+        <p>✔ Alimentação disponível</p>
+        <p>✔ Atendimento médico</p>
+      </div>
+
+      <div class="local">
+        <h3>📍 Ginásio Comunitário Boa Vista</h3>
+        <p>Capacidade: 180 pessoas</p>
+        <p>✔ Área infantil</p>
+        <p>✔ Banheiros e chuveiros</p>
+      </div>
+
+      <div class="local">
+        <h3>📍 Centro Emergencial Olinda</h3>
+        <p>Capacidade: 320 pessoas</p>
+        <p>✔ Acessibilidade</p>
+        <p>✔ Distribuição de roupas</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- RISCOS -->
+  <section id="riscos">
+
+    <h2>🗺️ Áreas de Risco</h2>
+
+    <div class="mapa">
+
+      <div class="local risco-alto">
+        <h3>🔴 Alto Risco</h3>
+        <p>Dois Unidos</p>
+        <p>Risco elevado de deslizamentos.</p>
+      </div>
+
+      <div class="local risco-medio">
+        <h3>🟠 Médio Risco</h3>
+        <p>Nova Descoberta</p>
+        <p>Possibilidade de alagamentos.</p>
+      </div>
+
+      <div class="local risco-baixo">
+        <h3>🟢 Baixo Risco</h3>
+        <p>Boa Viagem</p>
+        <p>Monitoramento contínuo.</p>
+      </div>
+
+      <div class="local risco-baixo">
+        <h3>🟢 Baixo Risco</h3>
+        <p>Espinheiro</p>
+        <p>Monitoramento contínuo.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CHECKLIST -->
+  <section id="checklist">
+
+    <h2>🎒 O que levar para o abrigo</h2>
+
+    <div class="card">
+
+      <div class="checklist-item">
+        <input type="checkbox">
+        <label>Documentos pessoais</label>
+      </div>
+
+      <div class="checklist-item">
+        <input type="checkbox">
+        <label>Água potável</label>
+      </div>
+
+      <div class="checklist-item">
+        <input type="checkbox">
+        <label>Medicamentos</label>
+      </div>
+
+      <div class="checklist-item">
+        <input type="checkbox">
+        <label>Roupas</label>
+      </div>
+
+      <div class="checklist-item">
+        <input type="checkbox">
+        <label>Lanterna</label>
+      </div>
+
+      <div class="checklist-item">
+        <input type="checkbox">
+        <label>Carregador</label>
+      </div>
+
+      <div class="checklist-item">
+        <input type="checkbox">
+        <label>Itens de higiene</label>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SOS -->
+  <section id="sos">
+
+    <h2>🆘 Emergência</h2>
+
+    <div class="card">
+      <p>
+        Pressione o botão SOS em caso de emergência.
+      </p>
+
+      <div class="sos">
+        <button onclick="ativarSOS()">SOS</button>
+      </div>
+
+      <div id="mensagemSOS" class="status"></div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>
+      ClimaSeguro PE 2026 • Protótipo Educacional sobre Mudanças Climáticas
+    </p>
+
+    <br>
+
+    <p>
+      Fontes:
+      <br>
+      G1 Pernambuco • APAC • INMET
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
